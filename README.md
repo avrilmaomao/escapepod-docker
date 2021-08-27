@@ -3,14 +3,18 @@
 Unofficial Docker image wrapping the Escape Pod for Anki/DDL Vector Robot.
 Escape Pod allows your favorite robot companion to function independent of DDL cloud servers while also enabling the customization of voice commands and improving response times.
 
+### (This image only works on arm64 arch.)
+
 ## How to use
 1. create container (just execute this once)
 ./container-create.sh
 
-2. start container 
+2. change your Pi's host name to escapepod  (so Vector can find it)
+
+3. start container 
 ./container-start.sh
 
-3. stop container
+4. stop container
 ./container-stop.sh
 
 ## License
